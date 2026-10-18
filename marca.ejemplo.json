@@ -1,0 +1,12 @@
+{
+  "nombre": "Marco",
+  "nombreCursiva": "Díez",
+  "dominio": "marcodiez.es",
+  "colores": {
+    "fondo": "#07070b",
+    "texto": "#f4f2ee",
+    "acento": "#ff3b47",
+    "luz1": "rgba(64,110,255,0.55)",
+    "luz2": "rgba(255,64,72,0.45)"
+  }
+}

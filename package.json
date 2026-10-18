@@ -1,0 +1,25 @@
+{
+  "name": "brand-og-image",
+  "version": "1.0.0",
+  "description": "Imágenes para compartir (Open Graph 1200×630) con tu marca a partir de un título, sin navegador.",
+  "type": "module",
+  "main": "src/brand-og-image.mjs",
+  "exports": "./src/brand-og-image.mjs",
+  "bin": { "brand-og-image": "bin/brand-og-image.mjs" },
+  "files": ["src", "bin", "marca.ejemplo.json"],
+  "scripts": {
+    "test": "node --test test/brand-og-image.test.mjs",
+    "ejemplo": "node bin/brand-og-image.mjs --titulo \"Cómo automatizar las solicitudes de tu formulario web con inteligencia artificial\" --etiqueta \"Blog · IA\" --marca marca.ejemplo.json --salida ejemplos/ejemplo.jpg"
+  },
+  "keywords": ["open-graph", "og-image", "social-image", "satori", "astro", "seo", "marketing"],
+  "author": "Marco Díez (https://marcodiez.es)",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@fontsource/instrument-serif": "5.3.0",
+    "@fontsource/sora": "5.3.0",
+    "@resvg/resvg-js": "2.6.2",
+    "satori": "0.62.0",
+    "sharp": "0.35.5"
+  }
+}
