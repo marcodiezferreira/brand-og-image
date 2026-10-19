@@ -1,7 +1,5 @@
 # brand-og-image
 
-> **EN** · Generate branded Open Graph images (1200×630) from a title, with or without a background photo. No headless browser: [satori](https://github.com/vercel/satori) + [resvg](https://github.com/yisibl/resvg-js) + [sharp](https://sharp.pixelplumbing.com/). CLI and Node library. Docs below in Spanish.
-
 **Genera la imagen para compartir de cada página o artículo con tu marca**, a partir de su título. Es la imagen que aparece al pegar un enlace en WhatsApp, LinkedIn, X o Slack.
 
 ![Ejemplo](ejemplos/sin-foto.jpg)
